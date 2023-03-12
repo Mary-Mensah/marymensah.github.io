@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url("hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.featured-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.featured-products .product {
+  margin: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  max-width: 300px;
+}
+
+.featured-products .product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.featured-products .product h3 {
+  margin-bottom: 0.5rem;
+}
+
+.featured-products .product p {
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.call-to-action {
+  background-color: #eee;
+  padding: 2rem;
+  text-align: center;
+}
+
+.call-to-action h2 {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
